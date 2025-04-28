@@ -71,7 +71,7 @@ for w, text in enumerate(extract_text):
         sale_date = extract_text[w + 1]
         sales_date = datetime.strptime(sale_date, "%Y-%m-%d").date()
 
-# 상품 정보 추출
+# 품목 정보 추출
 i = 0
 while i + 3 < len(extract_text):
     if is_product_name(extract_text[i]):
@@ -104,11 +104,12 @@ for item in items:
         item[key] = int(cleaned)
     print(item)
 
+#데이터 프레임으로 전환 및 생성
+receipt_data = pd.DataFrame(items)
+
 # 파일 경로 및 오픈할 sheet 이름
 file_path = fr"YOUR_FILE_FATH\csv\샘플 데이터.xlsx"
 sheet_name = "지출내역"
-
-receipt_data = pd.DataFrame(items) #데이터 프레임으로 전환 및 생성
 
 # 엑셀 열기
 wb = load_workbook(file_path)

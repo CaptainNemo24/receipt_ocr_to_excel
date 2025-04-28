@@ -107,12 +107,12 @@ for filename in os.listdir(image_file):
                 item[key] = int(cleaned)
             print(item)
 
+        # 데이터 프레임으로 전환 및 생성
+        receipt_data = pd.DataFrame(items)
+        
         # 파일 경로 및 오픈할 sheet 이름
         file_path = fr"YOUR_FILE_FATH\csv\샘플 데이터.xlsx"
         sheet_name = "지출내역"
-
-        # 데이터 프레임으로 전환 및 생성
-        receipt_data = pd.DataFrame(items)
 
         # 엑셀 열기
         wb = load_workbook(file_path)
