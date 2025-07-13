@@ -148,7 +148,7 @@
               }
             ]
           },
-          "inferText": "137-91-53995",
+          "inferText": "",
           "inferConfidence": 0.9998,
           "type": "NORMAL",
           "lineBreak": true
@@ -229,7 +229,7 @@
               }
             ]
           },
-          "inferText": "인천",
+          "inferText": "",
           "inferConfidence": 0.9999,
           "type": "NORMAL",
           "lineBreak": false
@@ -256,7 +256,7 @@
               }
             ]
           },
-          "inferText": "서구",
+          "inferText": "",
           "inferConfidence": 1.0,
           "type": "NORMAL",
           "lineBreak": false
@@ -283,7 +283,7 @@
               }
             ]
           },
-          "inferText": "도요지로",
+          "inferText": "",
           "inferConfidence": 0.9997,
           "type": "NORMAL",
           "lineBreak": false
@@ -310,7 +310,7 @@
               }
             ]
           },
-          "inferText": "17",
+          "inferText": "",
           "inferConfidence": 0.9999,
           "type": "NORMAL",
           "lineBreak": false
@@ -337,7 +337,7 @@
               }
             ]
           },
-          "inferText": "(경서동)",
+          "inferText": "",
           "inferConfidence": 0.9988,
           "type": "NORMAL",
           "lineBreak": false
@@ -364,7 +364,7 @@
               }
             ]
           },
-          "inferText": "101~102",
+          "inferText": "",
           "inferConfidence": 0.9999,
           "type": "NORMAL",
           "lineBreak": true
@@ -391,7 +391,7 @@
               }
             ]
           },
-          "inferText": "호",
+          "inferText": "",
           "inferConfidence": 0.9999,
           "type": "NORMAL",
           "lineBreak": true
@@ -445,7 +445,7 @@
               }
             ]
           },
-          "inferText": "문미아",
+          "inferText": "",
           "inferConfidence": 0.9999,
           "type": "NORMAL",
           "lineBreak": false
@@ -499,7 +499,7 @@
               }
             ]
           },
-          "inferText": "032-569-5888",
+          "inferText": "",
           "inferConfidence": 0.9995,
           "type": "NORMAL",
           "lineBreak": true
